@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: auto;
+    color: white;
+    background-color: #0b0909;
+    box-sizing: border-box;
+    background-size: 100%;
+    background-attachment:cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+nav {
+    margin: auto;
+    padding-top: 2.5px;
+    padding-bottom: 0px;
+    justify-content: center;
+    background-color: rgba(22, 22, 22, 0.8);
+    
+}
+
+.menu {
+    display: flex;   
+    justify-content: center;
+    list-style-type:none;
+}
+
+li {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+    
+}
+
+
+a:hover {
+    color: purple;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #268aee;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+a:active {
+    color: red;
+}
+
+
+.container {
+    padding: 20px auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;    
+}
+
+.title {
+    text-align: left;
+    font-size: 2.25em;
+    padding-top: 10px;
+    padding-right: 25%;
+    
+}
+
+.about {
+    text-align: left;
+    padding-left: 50%;
+    padding: 20px;
+    max-width: 50%; 
+    max-height: 100%;  
+}
+
+p {
+    font-size: 0.95em;
+}
+
+.line {
+    border-top: solid 0.5px white;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+
+.space {
+    padding-top: 10px;
+}
+
+span {
+    color: #cc6666;
+}
+
+.logo1 {
+    max-width: 100%;
+    margin-top: -10px;
+    padding-right: 500px;
+    margin-left: -500px;
+}
+
+.menu1 {
+    text-decoration: none;
+    text-align: center;
+    color: #268aee;
+    font-size: 0.85em;
+    font-weight: 500;
+}
