@@ -76,7 +76,8 @@ a:active {
     max-width: 50%; 
     max-height: 100%; 
     background-color: rgba(22, 22, 22, 0.8);
-    border-radius: 2%; 
+    border-radius: 2%;
+    margin-bottom: 20px;
 }
 
 p {
